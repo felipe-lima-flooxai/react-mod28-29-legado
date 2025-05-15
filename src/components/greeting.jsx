@@ -18,6 +18,10 @@ function GreetingCard({ name }) {
         <div style={styles.greeting}>
           <h1>Olá, {name}!</h1>
           <p>Seja bem-vindo ao nosso site.</p>
+          <p>Esta é a ultima sessão do curso de react. 
+          </p>
+          <p>Simplesmente uma sessão de treinar conceitos básicos
+            de componente react</p>
         </div>
       )}
     </div>
