@@ -7,6 +7,9 @@ import RandomNumbers from './components/RandomNumber.jsx'
 import { Board, Piece } from './components/Tabuleiro.jsx'
 import Pedido from './components/FilhoComProps.jsx'
 import ColorCard from './components/ColorCard.jsx'
+import ContadorDeMiados from './components/ContadorMiados.jsx'
+import VolumeSlider from './components/SliderVolume.jsx'
+import ColorSlider from './components/ColorSlider.jsx'
 
 function App() {
 
@@ -36,7 +39,16 @@ function App() {
         <ColorCard cor={"rosa"}>
           <Pedido></Pedido>
         </ColorCard>
-        
+        <ColorCard>
+          <p>Um exemplo bobo de componente de classe com Estado</p>
+          <ContadorDeMiados></ContadorDeMiados>
+        </ColorCard>
+        <ColorCard cor={"verde"}>
+          <VolumeSlider></VolumeSlider>
+        </ColorCard>
+        <ColorCard cor={"Azul"}>
+          <ColorSlider></ColorSlider>
+        </ColorCard>
       </div>
       
 
