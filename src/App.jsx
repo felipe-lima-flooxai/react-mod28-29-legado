@@ -11,6 +11,8 @@ import ContadorDeMiados from './components/ContadorMiados.jsx'
 import VolumeSlider from './components/SliderVolume.jsx'
 import ColorSlider from './components/ColorSlider.jsx'
 import CampoTextoLimitado from './components/CaracteresRestantes.jsx'
+import EscolhedorDeFruta from './components/EscolhedorFruta.jsx'
+import FrutaFavorita from './components/MostrarFruta.jsx'
 
 function App() {
 
@@ -53,6 +55,11 @@ function App() {
         <ColorCard cor={"rosa"}>
           <p>Um componente que possui com Estado Derivado</p>
           <CampoTextoLimitado></CampoTextoLimitado>
+        </ColorCard>
+        <ColorCard>
+          <FrutaFavorita>
+            <EscolhedorDeFruta></EscolhedorDeFruta>
+          </FrutaFavorita>
         </ColorCard>
       </div>
       
